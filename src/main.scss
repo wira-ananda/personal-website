@@ -1,0 +1,172 @@
+@use "./portfolio/sass/Home.scss";
+@use "./portfolio/sass/About.scss";
+@use "./portfolio/sass/Services.scss";
+@use "./portfolio/sass/Skills.scss";
+@use "./portfolio/sass/Contact.scss";
+
+$backgroundColor: #0b1414;
+$mainColor: #2a9d8f;
+$secondColor: #fff;
+$headerBackground: #2a9d8f33;
+$homeBackground: linear-gradient(180deg, #0b1414 76.88%, #0d2b29 100%);
+
+* {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 3px;
+}
+
+html::-webkit-scrollbar:hover {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: $mainColor;
+}
+
+html::-webkit-scrollbar-track {
+  background: $secondColor;
+}
+
+body {
+  // background: $backgroundColor;
+  display: flex;
+  margin: auto;
+}
+
+header {
+  background-color: $headerBackground;
+
+  p {
+    margin: auto;
+  }
+}
+
+$shadowBackground: 0px 0px 10px rgba(42, 157, 143, 0.6);
+
+#openingAnimation {
+  span {
+    filter: drop-shadow($shadowBackground);
+  }
+}
+
+#isiSidebar {
+  box-shadow: 0px 0px 20px #034852ce;
+}
+
+#headnav {
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
+
+#Project {
+  background: linear-gradient(180deg, #0d2b29 76.88%, #0b1414 100%);
+}
+
+#Footer {
+  background: linear-gradient(180deg, #0b1414 5%, #0d2b29 80%);
+}
+
+#textProject {
+  h1 {
+    background: linear-gradient(92.11deg, #2a9d8f 0.79%, #ffffff 99.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    // text-fill-color: transparent;
+  }
+}
+
+#contactButton,
+#emailButton {
+  background: linear-gradient(92.11deg, #2a9d8f 0.79%, #ffffff 99.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  // text-fill-color: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  // border-radius: 200px;
+}
+
+th, td {
+  border: 2px solid #141414;
+  padding: 8px;
+  text-align: center;
+}
+
+
+#UIEngineer{
+  background: linear-gradient(80deg, #2a9d8f 40%, #131212 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#FullstackDesigner{
+  background: linear-gradient(90deg, #2a9d8f 10%, #dddddd 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+// #circleProgress{
+//   fill: none;
+//   stroke: $mainColor;
+// }
+// #circleBackground{
+//   fill: none;
+//   stroke: $backgroundColor;
+// }
+
+@media screen and (max-width: 639px) {
+  html {
+    font-size: 5.5px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  html {
+    font-size: 6.8px;
+  }
+
+  header {
+    img {
+      margin-left: 0.5rem;
+    }
+    div {
+      section#logo {
+        display: flex;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1536px) {
+  html {
+    font-size: 7.7px;
+  }
+}

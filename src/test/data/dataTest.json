@@ -1,0 +1,14 @@
+{
+  "profile": [
+    {
+      "nama": "Wira Ananda",
+      "profesi": "Frontend Developer & UI Designer",
+      "id": 1
+    },
+    {
+      "nama": "Park Ji-Hyo",
+      "profesi": "Leader Twice",
+      "id": 2
+    }
+  ]
+}

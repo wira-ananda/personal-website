@@ -1,0 +1,30 @@
+{
+  "Medsos" : {
+    "instagram" : "https://www.instagram.com/wiraa_and/",
+    "email" : "mailto:ur.wiraananda@gmail.com?subject=Hai👋",
+    "github" : "https://github.com/Wira-Ananda",
+    "dribbble" : "https://dribbble.com/wira.ananda",
+    "whatsapp" : "https://wa.me/62895632449666",
+    "behance" : "https://www.behance.net/wiraananda"
+  },
+
+  "Home" : {
+    "judul" : "Hello, It's Me👋",
+    "name": "Wira Ananda",
+    "sebagai": {
+      "satu": "And I'm a",
+      "dua": "Frontend Developer",
+      "tiga": "UI Designer"
+    },
+    "deskripsi":
+      "Just non playable character that have unique vision and a lot of creative stuff. I love designing something and implementing it with a developing code."
+  },
+
+  "About" : {
+    "judul" : "about me",
+    "name" : "Hi, I’m Wira Ananda, Based in Makassar",
+    "deskripsi" : "Junior Frontend Developer and UI Designer, with improving knowledge and awesome creativity when designing and developing anything.",
+    "age" : "19 years old",
+    "goals" : "Software Developer"
+  }
+}

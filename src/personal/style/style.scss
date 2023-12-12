@@ -1,0 +1,17 @@
+$backgroundColor: #0b1414;
+$mainColor: #2a9d8f;
+$secondColor: #fff;
+$headerBackground: #2a9d8f33;
+$homeBackground: linear-gradient(180deg, #0b1414 76.88%, #0d2b29 100%);
+$shadowBackground: 0px 0px 10px rgba(42, 157, 143, 0.6);
+
+#textPerHome {
+  background: linear-gradient(92.11deg, #31746e 0.79%, #ffffff 99.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#isiPerHome {
+  filter: drop-shadow($shadowBackground);
+}

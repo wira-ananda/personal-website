@@ -1,0 +1,13 @@
+$aboutColor: #0d2b29;
+$aboutColor2: linear-gradient(180deg, #0d2b29 0%, #0b1414 100%);
+$tabelBackground: #2a9d8f33;
+
+#About {
+  background: $aboutColor;
+
+  div#aboutDIV {
+    width: 80%;
+    background: $aboutColor2;
+    border-radius: 0 0 30px 30px;
+  }
+}
